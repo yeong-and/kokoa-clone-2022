@@ -7,12 +7,18 @@
 @import url("components/nav-bar.css");
 @import url("components/screen-header.css");
 @import url("components/user-components.css");
+@import url("components/badge.css");
 
 /* Screens */
 @import url("screens/login.css");
 @import url("screens/friends.css");
+@import url("screens/find.css");
 
 body {
     color: #2e363e;
     font-family: 'Roboto Mono', monospace;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
